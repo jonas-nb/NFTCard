@@ -6,7 +6,7 @@ import eyeImage from "../assets/images/icon-view.svg";
 const Card = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <div className="bg-[#14253d] w-10/12 sm:w-5/12 md:w-5/12 lg:w-4/12 xl:w-3/12 h-[32rem] p-6 rounded-xl ">
+      <div className="bg-[#14253d] max-w-[320px]  h-[32rem] p-6 rounded-xl">
         <div className="rounded-lg drop-shadow-md m-auto bg-contain bg-no-repeat bg-[url('assets/images/image-equilibrium.jpg')] bg-clip-content w-56 h-56 ">
           <div className=" w-full h-full flex justify-center items-center transition-all duration-700 hover:bg-cyan-500/40 rounded-lg opacity-0 hover:opacity-100">
             <img className="w-11 h-11" src={eyeImage} alt="" />
