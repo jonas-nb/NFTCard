@@ -1,0 +1,18 @@
+.obg {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  border: solid 1px black;
+  flex-wrap: wrap;
+}
+/* jonas do nascimento batista */
+.elemento {
+  width: 300px;
+  height: 100px;
+  border: black solid 1px;
+  box-sizing: border-box;
+}
+.growTeste {
+  flex-grow: 1;
+}
